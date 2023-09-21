@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <section class="about">
+      <div class="container">
+        <h1 class="about__title">Немного информации про меня</h1>
+        <div class="about__inner">
+          <div class="about__box-1">
+            <p class="about__text">
+              Всем привет, я-Никита Левченко, меня никто не приглашает на
+              собеседования, я прихожу сам. Ладно шутка, на самом деле я
+              начинающий frontend-разработчик, хотя сейчас меня можно назвать
+              только верстальщиком, но это только пока. Если хотите узнать меня
+              лучше, милости прошу, нажимайте на кнопку ниже.
+            </p>
+            <button class="about__btn" id="mybtn">
+              Показать больше информации
+            </button>
+            <div id="mymodal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="modal__text">
+                  Как вы уже узнали, меня зовут Никитой, по батюшке я Андреевич.
+                  Учусь в ЮУРГУ на кафедре информационной безопасности
+                  автоматизированных систем критической инфраструктуры (да-да, я
+                  не пальцем деланный). Если серьёзно, увлёкся
+                  программированием, а именно front-end, в мае и вот до сих пор
+                  учусь самостоятельно. Js начал учить недавно, поэтому
+                  получилось всё немного не так, как было в моей голове, но
+                  ничего, этот недочёт, я уверен, скоро исправлю. Также
+                  увлекаюсь историей и литературой. Наверное, для начала этого
+                  хватит <br/>
+                  Всем зайчиков!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="about__box-2">
+            <img class="about__photo" src="./img/gallery-3.jpg" alt="" />
+            <img class="about__photo" src="./img/gallery-2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="about__letter">
+          <p class="about__letter-animetion">Программирование-это круто!</p>
+        </div>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
